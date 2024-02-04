@@ -1,0 +1,33 @@
+.contents
+{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center;
+    gap: 2rem; 
+    margin-bottom: 2rem;
+}
+.content-area 
+{
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+    position: relative; 
+    left: 0.4rem;
+}
+.content-area h4 , h3{
+    color: yellow; 
+}
+.content-area p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem; 
+}
+.content-area button{
+    background: white; 
+    padding: 0.7rem 2rem; 
+    border: none; 
+    font-size: 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
